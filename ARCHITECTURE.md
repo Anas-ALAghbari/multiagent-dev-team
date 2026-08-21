@@ -1,18 +1,18 @@
-# 🏗️ Architecture & Technical Specification: 👥 Multi-Agent Software Development Team
+Architecture & Technical Specification:  Multi-Agent Software Development Team
 
-Developer: **[Anas AL-Aghbari](https://www.linkedin.com/in/anas-al-aghbari-71070440a/)**
-
----
-
-## 🎯 System Objectives
-
-1. **High Performance**: Low-latency execution for real-time agent responses.
-2. **Modular Design**: Clean decoupling between agent core, memory, tools, and user interface.
-3. **Observability**: Built-in logging, token tracking, and step-by-step tracing.
+Developer: [Anas AL-Aghbari](https://www.linkedin.com/in/anas-al-aghbari-71070440a/)
 
 ---
 
-## 📦 Module Breakdown
+ System Objectives
+
+1. High Performance: Low-latency execution for real-time agent responses.
+2. Modular Design: Clean decoupling between agent core, memory, tools, and user interface.
+3. Observability: Built-in logging, token tracking, and step-by-step tracing.
+
+---
+
+ Module Breakdown
 
 - `src/core/`: Agent orchestration and prompt state machine.
 - `src/tools/`: Custom function tools and MCP adapters.
@@ -22,7 +22,7 @@ Developer: **[Anas AL-Aghbari](https://www.linkedin.com/in/anas-al-aghbari-71070
 
 ---
 
-## 🔒 Security & Guardrails
+ Security & Guardrails
 
 - Input sanitization and prompt injection protection.
 - API Key secret isolation via environment variables.
